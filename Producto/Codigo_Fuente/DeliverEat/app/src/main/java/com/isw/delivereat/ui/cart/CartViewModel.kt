@@ -56,4 +56,8 @@ class CartViewModel : ViewModel() {
     companion object {
         private val ACTIVITY_TITLE: String = "Mi Pedido"
     }
+
+    fun onNothing(){
+        val nuemroPin=0
+    }
 }
